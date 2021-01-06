@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.GridPane?>
 
-<GridPane hgap="10.0" vgap="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="overviewfx.welcomfx.WelcomeFxController">
+<GridPane hgap="10.0" styleClass="background" stylesheets="@CssWelcomeFx.css" vgap="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="overviewfx.welcomfx.WelcomeFxController">
    <padding>
       <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
    </padding>
@@ -24,10 +24,14 @@
       <RowConstraints minHeight="10.0" prefHeight="30.0" />
    </rowConstraints>
    <children>
-      <Text id="welcome-text" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To JavaFX" GridPane.columnSpan="2" />
-      <Label text="User Name : " GridPane.rowIndex="1" />
+      <Text id="welcome-text" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To JavaFX" GridPane.columnSpan="2">
+         <styleClass>
+            <String fx:value="top-segment" />
+            <String fx:value="title" />
+         </styleClass></Text>
+      <Label stylesheets="@CssWelcomeFx.css" text="User Name : " GridPane.rowIndex="1" />
       <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
-      <Label text="Password : " GridPane.rowIndex="2" />
+      <Label stylesheets="@CssWelcomeFx.css" text="Password : " GridPane.rowIndex="2" />
       <PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
       <HBox alignment="BOTTOM_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="10.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
          <children>
