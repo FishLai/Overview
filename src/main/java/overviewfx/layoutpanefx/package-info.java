@@ -18,4 +18,11 @@ package overviewfx.layoutpanefx;
  *       .build(); to construct BorderPane layout
  *   )
  *   .build();
+ *   
+ * AnchorPaneBuilder
+ * AnchorPane anchorPane = AnchorPaneBuilder.create()
+ *   .children(...)
+ *   .build();
+ * 
+ * 
  */
