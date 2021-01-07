@@ -3,9 +3,15 @@ package overviewfx.layoutpanefx;
 /*
  * Record
  * 21.01.07
+ * HBox & VBox
+ *   hbox.setHgrow(..., Priority.ALWAYS); as change window size change ... width first;
+ *   
  * GridPane -basic
  * GridPane2 -withSpan
  * GridPane3 -apply to welcome (no implement)
+ * GridPaneBuilder
+ *   row -> valignment(VPos...) when .rowConstraints(RowConstrainsBuilder().create()...build())
+ *   col -> halignment(HPos...) when .columnConstraints(ColumnConstraintsBuilder().create()...build())
  * FlowPane
  *   new FlowPane(Orientation.VERTICAL); can change the orientation direction
  *   Maybe I can implement an button to do the change in demo
