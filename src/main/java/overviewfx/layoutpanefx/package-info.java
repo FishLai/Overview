@@ -3,6 +3,8 @@ package overviewfx.layoutpanefx;
 /*
  * Record
  * 21.01.07
+ * Tile Pane
+ *   not exactly know what different with variable setPrefRows(..) 
  * HBox & VBox
  *   hbox.setHgrow(..., Priority.ALWAYS); as change window size change ... width first;
  *   
