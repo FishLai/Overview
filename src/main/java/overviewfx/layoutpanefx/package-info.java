@@ -6,6 +6,12 @@ package overviewfx.layoutpanefx;
  * HBox & VBox
  *   hbox.setHgrow(..., Priority.ALWAYS); as change window size change ... width first;
  *   
+ *   HBox hbox = HBoxBuilder.create()
+ *     .alignment(..)
+ *     .fillHeight(..)
+ *     .spacing(..)
+ *     .children(..)
+ *     .build();
  * GridPane -basic
  * GridPane2 -withSpan
  * GridPane3 -apply to welcome (no implement)

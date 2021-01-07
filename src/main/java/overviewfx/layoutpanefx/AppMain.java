@@ -5,7 +5,7 @@ public class AppMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String demo;
-		demo = "vbox";
+		demo = "stack";
 		if(demo.equals("border")) {
 			BorderPaneFx borderPane = new BorderPaneFx();
 			borderPane.main(args);
@@ -27,6 +27,9 @@ public class AppMain {
 		}else if (demo.equals("vbox")) {
 			VBoxFx vbox = new VBoxFx();
 			vbox.main(args);
+		}else if (demo.equals("stack")) {
+			StackPaneFx stackPane = new StackPaneFx();
+			stackPane.main(args);
 		}
 	}
 }
