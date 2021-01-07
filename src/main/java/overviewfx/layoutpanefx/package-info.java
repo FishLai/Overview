@@ -3,6 +3,9 @@ package overviewfx.layoutpanefx;
 /*
  * Record
  * 21.01.07
+ * GridPane -basic
+ * GridPane2 -withSpan
+ * GridPane3 -apply to welcome (no implement)
  * FlowPane
  *   new FlowPane(Orientation.VERTICAL); can change the orientation direction
  *   Maybe I can implement an button to do the change in demo
